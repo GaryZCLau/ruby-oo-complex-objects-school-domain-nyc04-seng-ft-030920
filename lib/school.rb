@@ -23,7 +23,6 @@ class School
   end
   
   def sort
-    @roster.to_a.sort.to_h
-    @roster[9].sort
+    @roster[9].sort.to_a.sort.to_h
   end
 end
