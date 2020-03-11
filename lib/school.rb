@@ -23,6 +23,6 @@ class School
   end
   
   def sort
-    @roster.to_a.sort.to_h
+    @roster.sort_by {|k, v| v}
   end
 end
