@@ -25,5 +25,6 @@ class School
   def sort
     r = @roster.sort.to_a.sort.to_h
     r2 = r[9].sort
+    
   end
 end
